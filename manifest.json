@@ -1,48 +1,22 @@
 {
-    "name": "Fighting Game by Mitya",
-    "short_name": "Fighting Game",
-    "start_url": "https://my-first-game-psi.vercel.app/",
-    "display": "standalone",
-    "description": "Project game",
-    "lang": "eng",
-    "dir": "auto",
-    "theme_color": "#C4B8B8",
-    "background_color": "#C54141",
-    "orientation": "any",
+    "name": "Fight Game",
+    "short_name": "F G",
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#5900b3",
+    "theme_color": "black",
+    "scope": ".",
+    "description": "My first Game",
     "icons": [
         {
-            "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable"
+            "src": "img/imgonline-com-ua-Resize-xVZ7CBD9C9R.png",
+            "sizes": "192x192",
+            "type": "image/png"
         },
         {
-            "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "any"
-        }
-    ],
-    "screenshots": [
-        {
-            "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
-            "sizes": "2880x1800",
-            "type": "image/png",
-            "description": "A screenshot of the home page"
-        }
-    ],
-    "related_applications": [
-        {
-            "platform": "windows",
-            "url": "https://www.pwabuilder.com/assets/screenshots/screen1.png"
-        }
-    ],
-    "prefer_related_applications": false,
-    "shortcuts": [
-        {
-            "name": "Game",
-            "url": "The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
-            "description": "A description of the functionality of this shortcut"
+            "src": "img/imgonline-com-ua-Resize-xVZ7CBD9C9R.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
     ]
 }
